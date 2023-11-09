@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task List</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!--HEADER-->
+    <header>
+        <div class="header">
     <h1>My Task List</h1>
-
+        </div>
+    </header>
     <!--MAIN-->
 
     <!--SECTION 1-->
     <section>
-    <p class="ciao">Inserisci il tuo nome:</p>
-    <form id="nameForm">
-        <input type="text" name="nome" required>
-        <button id="salutobtn"> add </button>
-    </form>
-    <div id="salutoNome"></div>
+      <p class="ciao">Inserisci il tuo nome:</p>
+      <form id="nameForm">
+        <input type="text" name="nome" required />
+        <button id="salutobtn">add</button>
+      </form>
+      <div id="salutoNome">
+      </div>
     </section>
     <!--SECTION 2-->
     <section id="todolist">
-    <p>To-do list:</p>
-    <form id="todoForm">
-        <input type="text" name="task" required>
+      <p>To-do list:</p>
+
+      <div id="tasklist"></div>
+
+      <form id="todoForm">
+        <input type="text" name="task" required />
         <button id="formBtn">+</button>
-    </form>
-    <div id="tasklist">
-        
-    </div>
+      </form>
     </section>
     <!--FOOTER-->
 
     <script src="Js/ds.js"></script>
-</body>
+  </body>
 </html>
