@@ -16,13 +16,13 @@
     <!--HEADER-->
     <header>
         <div class="header">
-    <h1>My Task List</h1>
+    <h1>my to-do list</h1>
         </div>
     </header>
     <!--MAIN-->
 
     <!--SECTION 1-->
-    <section>
+    <section id="salutoUser">
       <p class="ciao">Inserisci il tuo nome:</p>
       <form id="nameForm">
         <input type="text" name="nome" required />
@@ -33,14 +33,20 @@
     </section>
     <!--SECTION 2-->
     <section id="todolist">
-      <p>To-do list:</p>
-
+      <p>Questa è la tua lista:</p>
+      
       <div id="tasklist"></div>
 
       <form id="todoForm">
-        <input type="text" name="task" required />
-        <button id="formBtn">+</button>
+        <input type="text" name="task" placeholder="Inserisci qui la tua task!" required />
+        <button id="formBtn">add</button>
       </form>
+      <div id="istruzioni">
+      <p>per aggiungere una task, inseriscila nella box e clicca su "add"</p>
+      <p>clicca una volta la task per segnarla come completata</p>
+      <p>clicca un'altra volta per deselezionarla</p>
+      <p>clicca sul tasto "remove" per cancellarla</p>
+      </div>
     </section>
     <!--FOOTER-->
 
