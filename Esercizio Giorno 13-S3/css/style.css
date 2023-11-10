@@ -123,3 +123,7 @@ p button{
 }
 
 /*FOOTER*/
+
+footer p{
+    font-size: 0.7rem;
+}
